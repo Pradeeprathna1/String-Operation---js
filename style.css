@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBox {
+    background-color: blue;
+    /* padding: 0 300px 0 300px; */
+    width: 40%;
+    border: 5px solid red;
+}
+
+.header {
+    text-align: center;
+    padding: 25px 0 0 0;
+    color: darkorange;
+    font-size: 23px;
+} 
+
+.displayBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: aqua; */
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.displayBox input {
+    width: 80%;
+    height: 50px;
+    /* padding: 10px 182px; */
+    border: 2px solid yellowgreen;
+    font-size: 23px;
+    text-align: center;
+}
+
+.bttnBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: cadetblue; */
+}
+
+.bttns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* background-color: RED; */
+    gap: 1rem;
+    width: 80%;
+    /* padding-left: 40px; */
+}
+
+.bttns button {
+    height: 30px;
+    width: 120px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.output {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 25px 0;
+}
+
+.output input {
+    width: 80%;
+    height: 50px;
+    /* padding: 10px 182px; */
+    border: 2px solid tomato;
+    font-size: 23px;
+    text-align: center;
+}
